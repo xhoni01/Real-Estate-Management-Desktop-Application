@@ -18,7 +18,7 @@ public static Connection db_connection(){
     Connection con=null;
     try{
       Class.forName("com.mysql.cj.jdbc.Driver");
-      con =(Connection) DriverManager.getConnection("jdbc:mysql://localhost:3308/compputer_application_project?allowPublicKeyRetrieval useSSL=FALSE;","root","Aria2013");
+      con =(Connection) DriverManager.getConnection("jdbc:mysql://localhost:3308/compputer_application_project?allowPublicKeyRetrieval useSSL=FALSE;","root","");
     }
     catch(Exception e){
         JOptionPane.showMessageDialog(null, "not connnected with dtabase");
